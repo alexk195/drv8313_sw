@@ -5,7 +5,7 @@ The board is a breadboardable breakout board for Texas Instruments DRV8313 IC.
 The DRV8313 provides three individually controllable half-H-bridge drivers. The device is intended to drive a three-phase brushless-DC motor, although it can also be used to drive other loads. 
 It has built-in thermal protection and indicates errors by a fault pin. Also built-in comparator can be used to check for certain current limit.
 
-The board can be populated with additional larger capacitor to stabilize supply voltage if driving higher loads. Solder a capacitor to C6 with about 100µF then.
+The board can be populated with additional larger capacitor C6 to stabilize supply voltage if driving higher loads. In this case you can solder an electrolytic capacitor to C6 of about 100µF (minus near the board edge).
 
 Folders:
   * PSoC5: simple example project which demonstrates how to use the DRV8313 board to drive BLDC motor using Cypress PSoC5 Kit. 
