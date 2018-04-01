@@ -1,26 +1,19 @@
-/**
-  BLDC control for DRV8313 board
-*/
-
-#include <device.h>
-
 /*******************************************************************************
-* Function Name: main
+* Rotate BLDC motor using PSoC5 and TI8313
 ********************************************************************************
 *
 * Summary:
+*  On power on green led should go on. Then motor will start movement.
+*  If red led goes on then N_FAULT signal indicates an error.
 *  Motor should accelerate up to 1 revolution per second. Rotate for 10 seconds
 *  with constant speed then decelerates to full stop. Green LED goes off then.
-*  External red led is supposed to be connected in parallel with built-in led.
-*  This led indicates an error
-*
-* Parameters:
-*  None.
-*
-* Return:
-*  None.
-*
+*  
+*  www.el08.de/ti8313
+*  github.com/alexk195/drv8313_sw
 *******************************************************************************/
+
+#include <device.h>
+
 #include <stdio.h>
 #include <math.h>
 
