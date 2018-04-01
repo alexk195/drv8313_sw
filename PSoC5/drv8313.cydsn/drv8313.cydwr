@@ -312,12 +312,12 @@
   <Group key="Pin2">
     <Group key="1dfe24f1-219a-49cc-b20e-6d381f94f840">
       <Group key="0">
-        <Data key="Port Format" value="2,0" />
+        <Data key="Port Format" value="2,2" />
       </Group>
     </Group>
     <Group key="6b240358-c245-4588-8d05-93e23d435943">
       <Group key="0">
-        <Data key="Port Format" value="12,3" />
+        <Data key="Port Format" value="0,3" />
       </Group>
     </Group>
     <Group key="6bb5c174-9a36-45bc-aa73-2008a0107a1f">
@@ -332,7 +332,7 @@
     </Group>
     <Group key="8a81573f-278b-4783-b263-26c1911972eb">
       <Group key="0">
-        <Data key="Port Format" value="2,7" />
+        <Data key="Port Format" value="2,3" />
       </Group>
     </Group>
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
@@ -342,12 +342,12 @@
     </Group>
     <Group key="34e42ada-a916-4519-9205-c65e7f6ca068">
       <Group key="0">
-        <Data key="Port Format" value="12,2" />
+        <Data key="Port Format" value="2,7" />
       </Group>
     </Group>
     <Group key="74a91ec9-2537-472a-a341-0752b6a1b6b6">
       <Group key="0">
-        <Data key="Port Format" value="2,3" />
+        <Data key="Port Format" value="2,0" />
       </Group>
     </Group>
     <Group key="756436b4-f2d9-420c-a2cd-89e232e82e24">
@@ -358,11 +358,6 @@
     <Group key="77715107-f8d5-47e5-a629-0fb83101ac6b">
       <Group key="0">
         <Data key="Port Format" value="0,4" />
-      </Group>
-    </Group>
-    <Group key="a2fba028-e906-4169-b658-174209c465ec">
-      <Group key="0">
-        <Data key="Port Format" value="2,2" />
       </Group>
     </Group>
     <Group key="ab34c8d8-1746-4280-bf09-cbd68f88c82d">
@@ -451,7 +446,11 @@
         <Data key="Port Format" value="2,1" />
       </Group>
     </Group>
-    <Group key="UnAssigned Pins" />
+    <Group key="UnAssigned Pins">
+      <Group key="a2fba028-e906-4169-b658-174209c465ec">
+        <Data key="0" value="131670704122371020" />
+      </Group>
+    </Group>
   </Group>
   <Group key="System3">
     <Data key="CYDEV_BOOTLOADER_IO_COMP" value="CUSTOM_IO" />
